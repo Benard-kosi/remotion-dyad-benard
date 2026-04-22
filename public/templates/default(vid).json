@@ -1,0 +1,42 @@
+{
+  "id": "sv-template-1774998164449",
+  "name": "Default(vid)",
+  "number": "3",
+  "description": "default template for just showing a video",
+  "stretchFrame": 150,
+  "slotMediaTypes": {
+    "1": "video"
+  },
+  "sequence": [
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground"
+  ],
+  "overlays": [
+    {
+      "name": "VideoObject",
+      "position": "center-center",
+      "startFrame": 0,
+      "endFrame": 300,
+      "constrained": true,
+      "props": {
+        "imageSrc": "{{1}}",
+        "videoSrc": "{{1}}",
+        "label": "",
+        "sizeMode": "keep",
+        "extraHoldFrames": 0
+      }
+    }
+  ],
+  "cameraMovements": [],
+  "rules": [
+    {
+      "type": "stretch",
+      "id": 1774516095038
+    }
+  ],
+  "width": 1920,
+  "height": 1080
+}

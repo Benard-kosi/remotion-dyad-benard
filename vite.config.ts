@@ -1,0 +1,24 @@
+import { defineConfig } from "vite";
+import dyadComponentTagger from "@dyad-sh/react-vite-component-tagger";
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
+
+export default defineConfig(() => ({
+  server: {
+    host: "::",
+    port: 8080,
+    proxy: {
+      '/api': 'http://localhost:3000',
+      '/verify-script': 'http://localhost:3000',
+      '/render-script': 'http://localhost:3000',
+      '/uploads': 'http://localhost:3000',
+      '/templates': 'http://localhost:3000',
+    }
+  },
+  plugins: [dyadComponentTagger(), react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+}));

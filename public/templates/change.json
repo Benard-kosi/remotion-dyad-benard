@@ -1,0 +1,65 @@
+{
+  "id": "sv-template-1774871673054",
+  "name": "change",
+  "number": "1",
+  "description": "when trying to show change from old to new",
+  "stretchFrame": 120,
+  "sequence": [
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground"
+  ],
+  "overlays": [
+    {
+      "name": "ImageObject",
+      "position": "left-center",
+      "startFrame": 0,
+      "endFrame": 240,
+      "constrained": true,
+      "props": {
+        "imageSrc": "{{1}}",
+        "label": "",
+        "sizeMode": "small",
+        "referenceOverlayIndex": ""
+      }
+    },
+    {
+      "name": "ImageObject",
+      "position": "right-center",
+      "startFrame": 20,
+      "endFrame": 240,
+      "constrained": true,
+      "props": {
+        "imageSrc": "{{2}}",
+        "label": "",
+        "sizeMode": "small",
+        "referenceOverlayIndex": ""
+      }
+    },
+    {
+      "name": "SequenceObject",
+      "position": "center-center",
+      "startFrame": 10,
+      "endFrame": 240,
+      "constrained": true,
+      "props": {
+        "sequence": [
+          "ArrowSequence|right|240"
+        ],
+        "label": "",
+        "sizeMode": "small",
+        "referenceOverlayIndex": ""
+      }
+    }
+  ],
+  "cameraMovements": [],
+  "rules": [
+    {
+      "type": "stretch",
+      "id": 1774619332258
+    }
+  ],
+  "width": 1920,
+  "height": 1080
+}

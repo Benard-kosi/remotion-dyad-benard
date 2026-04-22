@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/bebas_neue/BebasNeue-Regular.woff2') format('woff2'),
+       url('/bebas_neue/BebasNeue-Regular.woff') format('woff'),
+       url('/bebas_neue/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

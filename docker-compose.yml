@@ -1,0 +1,23 @@
+services:
+  video-factory:
+    build: .
+    container_name: video-factory
+    ports:
+      - "3000:3000"
+    volumes:
+      # Persist your data across container restarts
+      - ./public/uploads:/app/public/uploads
+      - ./public/templates:/app/public/templates
+      - ./public/huds:/app/public/huds
+      - ./settings.json:/app/settings.json
+    environment:
+      - NODE_ENV=production
+      # Add your API keys here or in a .env file
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    restart: unless-stopped
+    # Remotion rendering can be resource intensive
+    deploy:
+      resources:
+        limits:
+          memory: 4G

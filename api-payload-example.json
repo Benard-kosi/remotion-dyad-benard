@@ -1,0 +1,4 @@
+{
+  "script": "FV: WhiteBackground\nFV: WhiteBackground\nFV: WhiteBackground\nFV: WhiteBackground\nFV: Batch Circles 8 4 0-240 \"Naruto, Ichigo, Asta, Deku, Goku, Luffy, Gon, ken\" /main/naruto.png, /main/ichigo.png, /main/asta.png, /main/deku.png, /main/goku.png, /main/luffy.png, /main/gon.png, /main/ken.png\nFV: Camera focus #1 30-60 2\nFV: Camera focus #2 90-120 2\nFV: Camera focus #3 150-180 2\n\nSV_START: 1\nFV: WhiteBackground\nFV: WhiteBackground\nFV: WhiteBackground\nFV: WhiteBackground\nFV: Overlay Circles right-top 0-240 \"\" /main/naruto.png\nFV: Overlay ImageObject center-center 0-60 \"\" /main/naruto1.png\nFV: Overlay VideoObject center-center 60-240 \"\" /main/naruto-2.mp4\nSV_END\n\nCUT: 1 at 70",
+  "outputName": "automated_naruto_video"
+}

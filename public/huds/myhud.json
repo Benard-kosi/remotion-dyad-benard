@@ -1,0 +1,22 @@
+{
+  "name": "MyHUD",
+  "elements": [
+    {
+      "type": "text",
+      "content": "{{topic}}",
+      "position": "top-left",
+      "style": {}
+    },
+    {
+      "type": "progress",
+      "position": "top-center",
+      "style": {}
+    },
+    {
+      "type": "image",
+      "content": "/placeholder.png",
+      "position": "top-right",
+      "style": {}
+    }
+  ]
+}

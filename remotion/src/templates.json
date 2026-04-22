@@ -1,0 +1,19 @@
+[
+  { "name": "FadeInTextTransition", "durationInFrames": 60 },
+  { "name": "AnimatedGridBackground", "durationInFrames": 60 },
+  { "name": "SlideTextRightToCenterThenLeft", "durationInFrames": 30 },
+  { "name": "SlideImageBottomToCenterThenDown", "durationInFrames": 120 },
+  { "name": "SlideImageRightToCenterThenLeft", "durationInFrames": 90 },
+  { "name": "FadeInImage", "durationInFrames": 60 },
+  { "name": "TypewriterText", "durationInFrames": 120 },
+  { "name": "TestBounceComp", "durationInFrames": 90 },
+  { "name": "FVSequence", "durationInFrames": 300 },
+  { "name": "Circles", "durationInFrames": 60 },
+  { "name": "RoundedRectangle", "durationInFrames": 60 },
+  { "name": "WhiteBackground", "durationInFrames": 60 },
+  { "name": "FinalComposition", "durationInFrames": 600 },
+  { "name": "ImageObject", "durationInFrames": 60 },
+  { "name": "VideoObject", "durationInFrames": 300 },
+  { "name": "SequenceObject", "durationInFrames": 300 },
+  { "name": "ArrowSequence", "durationInFrames": 60 }
+]

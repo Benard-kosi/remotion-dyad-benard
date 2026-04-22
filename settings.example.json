@@ -1,0 +1,4 @@
+{
+  "webhookUrl": "https://your-webhook-url.com",
+  "publicBaseUrl": "http://localhost:3000"
+}

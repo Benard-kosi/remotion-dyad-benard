@@ -1,0 +1,38 @@
+{
+  "id": "sv-template-1774871846023",
+  "name": "Default(img)",
+  "number": "2",
+  "description": "default template for just showing an image",
+  "stretchFrame": 150,
+  "sequence": [
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground",
+    "WhiteBackground"
+  ],
+  "overlays": [
+    {
+      "name": "ImageObject",
+      "position": "center-center",
+      "startFrame": 0,
+      "endFrame": 300,
+      "constrained": true,
+      "props": {
+        "imageSrc": "{{1}}",
+        "label": "",
+        "sizeMode": "keep",
+        "extraHoldFrames": 0
+      }
+    }
+  ],
+  "cameraMovements": [],
+  "rules": [
+    {
+      "type": "stretch",
+      "id": 1774516095038
+    }
+  ],
+  "width": 1920,
+  "height": 1080
+}
